@@ -8,6 +8,14 @@ plugins {
     id 'org.springframework.boot' version '2.1.9.RELEASE'
 }
 
+sourceSets {
+    test {
+        java {
+            srcDirs = ["src/test/java", "src/test/jmeter"]
+        }
+    }
+}
+
 test {
     include 'src/Test/**'
 
