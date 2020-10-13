@@ -17,8 +17,6 @@ sourceSets {
 }
 
 test {
-    include 'src/Test/**'
-
     useJUnitPlatform()
 
 }
