@@ -16,5 +16,3 @@ jobs:
         run: gradle init
       - name: Build with Gradle
         run: gradle build
-      - name: Run with Gradle
-        run: gradle bootRun
