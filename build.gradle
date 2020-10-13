@@ -11,7 +11,7 @@ plugins {
 sourceSets {
     test {
         java {
-            srcDirs = ["src/test/java", "src/test/jmeter"]
+            srcDirs = ["src/test/java/org/springframework/samples/petclinic", "src/test/jmeter"]
         }
     }
 }
