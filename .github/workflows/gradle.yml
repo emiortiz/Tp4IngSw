@@ -15,7 +15,7 @@ jobs:
       - name: wrapper with Gradle
         run: gradle wrapper
       - name: chmod with Gradle
-        run: chmod -x gradlew
+        run: chmod +x gradlew
       - name: Build with Gradle
         run: ./gradlew build
       #- name: Add remote origin 
