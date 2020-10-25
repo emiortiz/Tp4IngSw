@@ -69,7 +69,7 @@ jobs:
       - name: Set up JDK 1.11
         uses: actions/setup-java@v1
         with:
-          java-version: 1.1
+          java-version: 1.11
      #- name: Add remote origin 
         #run: git remote add heroku https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/${{ secrets.HEROKU_APP_NAME }}.git
      #- name: Deploy to heroku
